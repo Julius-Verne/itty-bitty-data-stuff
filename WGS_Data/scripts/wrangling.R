@@ -4,7 +4,7 @@ scab.data <- read.csv(here("input-data","WDVP_Datasets_SCAB.csv"))
 
 summary(scab.data)
 
-names(scab.data) <- c("country", "population", "gdp.billions", "gdp.capita", "gdp.km2",
+names(scab.data) <- c("country.name", "pop", "gdp.billions", "gdp.capita", "gdp.km2",
                       "land.area.km2","pop.density","foreign.pop","perc.foreign.born",
                       "pop.abroad","perc.pop.abroad","happy.planet.index",
                       "world.happiness.index", "hdi", "health.expenditure.capita",
@@ -30,5 +30,8 @@ for (i in 2:16) {
 }
 
 
-summary(scab.data)
 
+
+
+
+  
